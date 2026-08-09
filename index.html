@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A responsive school-year calendar for holidays, exam weeks, and special days."
+    />
+    <meta name="theme-color" content="#173f35" />
+    <title>School calendar</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#calendar">Skip to calendar</a>
+
+    <header class="hero">
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <h1 id="page-title"><strong>School Year</strong> <strong id="hero-year">2026 / 2027</strong></h1>
+        </div>
+      </div>
+    </header>
+
+    <main id="calendar" class="page-shell" tabindex="-1">
+      <h2 id="calendar-heading" class="visually-hidden">School Year 2026 / 2027</h2>
+
+      <div id="loading-state" class="loading-state" role="status">Loading calendar…</div>
+      <section
+        id="months-grid"
+        class="months-grid"
+        aria-labelledby="calendar-heading"
+        aria-busy="true"
+      ></section>
+
+      <noscript>
+        <p class="error-state">This calendar needs JavaScript enabled to read its JSON data.</p>
+      </noscript>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-year">
+        <label for="year-select">School year</label>
+        <div class="select-wrap">
+          <select id="year-select" aria-label="Select school year"></select>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7.5 5 5 5-5" /></svg>
+        </div>
+      </div>
+      <a href="#calendar">Go top <span aria-hidden="true">↑</span></a>
+    </footer>
+
+    <dialog id="day-dialog" class="day-dialog" aria-labelledby="dialog-date">
+      <div class="day-dialog__surface">
+        <div class="day-dialog__handle" aria-hidden="true"></div>
+        <header class="day-dialog__header">
+          <div>
+            <h2 id="dialog-date"></h2>
+          </div>
+          <button id="dialog-close" class="icon-button" type="button" aria-label="Close day details">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+          </button>
+        </header>
+        <div id="dialog-events" class="dialog-events"></div>
+      </div>
+    </dialog>
+  </body>
+</html>
