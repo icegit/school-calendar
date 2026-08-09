@@ -19,13 +19,13 @@
     <header class="hero">
       <div class="hero__inner">
         <div class="hero__copy">
-          <h1 id="page-title">KKC <strong>School Year</strong> <strong id="hero-year">2026 / 2027</strong></h1>
+          <h1 id="page-title"><strong>School Year</strong> <strong id="hero-year">2026 / 2027</strong></h1>
         </div>
       </div>
     </header>
 
     <main id="calendar" class="page-shell" tabindex="-1">
-      <h2 id="calendar-heading" class="visually-hidden">KKC school year 2026 / 2027</h2>
+      <h2 id="calendar-heading" class="visually-hidden">School Year 2026 / 2027</h2>
 
       <div id="loading-state" class="loading-state" role="status">Loading calendar…</div>
       <section
@@ -41,6 +41,13 @@
     </main>
 
     <footer class="site-footer">
+      <div class="footer-year">
+        <label for="year-select">School year</label>
+        <div class="select-wrap">
+          <select id="year-select" aria-label="Select school year"></select>
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7.5 5 5 5-5" /></svg>
+        </div>
+      </div>
       <a href="#calendar">Go top <span aria-hidden="true">↑</span></a>
     </footer>
 

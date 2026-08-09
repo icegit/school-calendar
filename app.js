@@ -1,4 +1,5 @@
 const elements = {
+  yearSelect: document.querySelector("#year-select"),
   grid: document.querySelector("#months-grid"),
   loading: document.querySelector("#loading-state"),
   heroYear: document.querySelector("#hero-year"),
@@ -72,8 +73,8 @@ function validateCalendar(calendar) {
   }
 
   for (const event of calendar.events) {
-    if (!event.id || !event.title || !event.category || !event.start || !event.end) {
-      throw new Error("Every event needs an id, title, category, start, and end date.");
+    if (!event.id || !event.title || !event.category || !event.start || !event.end || !event.location) {
+      throw new Error("Every event needs an id, title, category, start date, end date, and location.");
     }
     if (!calendar.categories[event.category]) {
       throw new Error(`Unknown category “${event.category}” on event “${event.title}”.`);
@@ -121,6 +122,16 @@ function formatRange(event) {
   return `${formatDate(start, options)} – ${formatDate(end, options)}`;
 }
 
+function renderYearOptions() {
+  elements.yearSelect.replaceChildren();
+  for (const year of state.manifest.years) {
+    const option = document.createElement("option");
+    option.value = year.id;
+    option.textContent = year.label;
+    elements.yearSelect.append(option);
+  }
+}
+
 function getWeekdayLabels() {
   const monday = new Date(2024, 0, 1);
   return Array.from({ length: 7 }, (_, index) =>
@@ -128,25 +139,27 @@ function getWeekdayLabels() {
   );
 }
 
-function primaryCategory(events) {
-  const categories = [...new Set(events.map((event) => event.category))];
-  if (categories.length > 1) return "mixed";
-  return categories[0] || null;
-}
-
 function createDayButton(date, allEvents) {
   const key = toDateKey(date);
-  const categories = [...new Set(allEvents.map((event) => event.category))];
   const button = document.createElement("button");
-  const today = toDateKey(new Date()) === key;
+  const todayKey = toDateKey(new Date());
+  const today = todayKey === key;
+  const past = key < todayKey;
   const weekend = date.getDay() === 0 || date.getDay() === 6;
+  const hasExam = allEvents.some((event) => event.category === "exam");
+  const hasHoliday = allEvents.some((event) => event.category === "holiday");
 
   button.type = "button";
   button.className = "day";
-  if (weekend) button.classList.add("day--weekend");
+  if (weekend) {
+    button.classList.add("day--weekend");
+  } else if (hasExam) {
+    button.classList.add("day--exam");
+  } else if (hasHoliday) {
+    button.classList.add("day--holiday");
+  }
+  if (past) button.classList.add("day--past");
   if (today) button.classList.add("day--today");
-  if (allEvents.length) button.classList.add(`day--${primaryCategory(allEvents)}`);
-  if (categories.length > 1) button.classList.add("day--mixed");
 
   const number = document.createElement("span");
   number.className = "day__number";
@@ -324,9 +337,10 @@ async function loadYear(yearId) {
 
   state.calendar = calendar;
   state.eventsByDate = buildEventIndex(calendar.events);
+  elements.yearSelect.value = selected.id;
   elements.heroYear.textContent = calendar.label;
-  elements.heading.textContent = `KKC school year ${calendar.label}`;
-  document.title = `KKC School Year ${calendar.label}`;
+  elements.heading.textContent = `School Year ${calendar.label}`;
+  document.title = `School Year ${calendar.label}`;
   renderCalendar();
   elements.loading.hidden = true;
 
@@ -340,6 +354,7 @@ async function init() {
     const response = await fetch("data/years.json", { cache: "no-store" });
     if (!response.ok) throw new Error("Could not load the school-year list.");
     state.manifest = await response.json();
+    renderYearOptions();
 
     const requested = new URLSearchParams(window.location.search).get("year");
     const initial = state.manifest.years.some((year) => year.id === requested)
@@ -357,6 +372,7 @@ async function init() {
   }
 }
 
+elements.yearSelect.addEventListener("change", () => loadYear(elements.yearSelect.value));
 elements.dialogClose.addEventListener("click", () => elements.dialog.close());
 elements.dialog.addEventListener("click", (event) => {
   if (event.target === elements.dialog) elements.dialog.close();

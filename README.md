@@ -1,6 +1,6 @@
 # School calendar
 
-A dependency-free, responsive school-year calendar generated from `ToHTML.xlsx`. It displays the 2026/2027 school year on desktop and mobile, with green weekends and holidays, red exam weeks, and blue special days. Clicking or tapping any date opens a detail panel.
+A dependency-free, responsive school-year calendar generated from `ToHTML.xlsx`. It displays the 2026/2027 school year on desktop and mobile, with green weekends and holidays, red exam weeks, purple family events, blue public events, and a light-gray tint for past dates. Clicking or tapping any date opens a detail panel.
 
 ## Preview locally
 
@@ -17,9 +17,9 @@ Then open `http://localhost:8000`. Do not open `index.html` directly: browsers b
 
 1. Copy `data/2026-2027.json` to a new file such as `data/2027-2028.json`.
 2. Change the year metadata, month range, and events. Event start and end dates are inclusive.
-3. Add the new file to `data/years.json` and set it as `default`, or open it with `?year=2027-2028`.
+3. Add the new file to `data/years.json`. The bottom school-year selector will update automatically.
 
-Every event supports the following optional detail fields:
+Every event requires a `location`. The `notes`, `url`, and `linkLabel` fields are optional:
 
 ```json
 {
