@@ -5,7 +5,7 @@
   "locale": "en-GB",
   "timezone": "Europe/Amsterdam",
   "startMonth": "2026-08",
-  "endMonth": "2027-08",
+  "endMonth": "2027-07",
   "categories": {
     "holiday": { "label": "School holidays", "color": "#22865b" },
     "exam": { "label": "Exam weeks", "color": "#d64d55" },
@@ -39,8 +39,6 @@
     { "id": "mothers-day-2027", "title": "Mother's Day", "start": "2027-05-09", "end": "2027-05-09", "category": "family", "location": "Home / planned venue" },
     { "id": "fathers-day-2027", "title": "Father's Day", "start": "2027-06-20", "end": "2027-06-20", "category": "family", "location": "Home / planned venue" },
     { "id": "daughter-birthday-2027", "title": "Daughter's birthday", "start": "2027-07-14", "end": "2027-07-14", "category": "family", "location": "Home" },
-    { "id": "anniversary-2027", "title": "Anniversary", "start": "2027-08-11", "end": "2027-08-11", "category": "family", "location": "Home / planned venue" },
-    { "id": "son-birthday-2027", "title": "Son's birthday", "start": "2027-08-23", "end": "2027-08-23", "category": "family", "location": "Home" },
 
     { "id": "pure-markt-amsterdamse-bos-2026-08-16", "title": "Pure Markt", "start": "2026-08-16", "end": "2026-08-16", "category": "special", "location": "Amsterdamse Bos", "notes": "11:00–18:00. Travelling Sunday market along the forest's broad, car-free lanes.", "url": "https://puremarkt.nl/agenda/", "linkLabel": "View Pure Markt agenda" },
     { "id": "pure-markt-amsterdamse-bos-2026-09-20", "title": "Pure Markt", "start": "2026-09-20", "end": "2026-09-20", "category": "special", "location": "Amsterdamse Bos", "notes": "11:00–18:00. Travelling Sunday market along the forest's broad, car-free lanes.", "url": "https://puremarkt.nl/agenda/", "linkLabel": "View Pure Markt agenda" },
@@ -83,9 +81,6 @@
     { "id": "japan-festival-amstelveen-2027", "title": "Japan Festival Amstelveen", "start": "2027-06-27", "end": "2027-06-27", "category": "hold", "location": "Amstelveen — venue to be announced", "notes": "Provisional date based on the festival's usual late-June timing. Check for the official 2027 cultural and culinary programme.", "url": "https://www.japanfestival.nl/", "linkLabel": "Check Japan Festival updates" },
     { "id": "keti-koti", "title": "Keti Koti Festival", "start": "2027-07-01", "end": "2027-07-01", "category": "special", "location": "Museumplein, Amsterdam", "notes": "History, music, food and conversations about freedom and the Dutch slavery past.", "url": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/keti-koti-festival-museumplein" },
     { "id": "nijmeegse-vierdaagse", "title": "Nijmeegse Vierdaagse", "start": "2027-07-20", "end": "2027-07-23", "category": "special", "location": "Nijmegen", "notes": "Cheer along the route or attend the Friday finish on Via Gladiola rather than attempting the walk itself.", "url": "https://www.4daagse.nl/" },
-    { "id": "family-island-weekend", "title": "Family island weekend", "start": "2027-08-07", "end": "2027-08-08", "category": "special", "location": "Texel, Terschelling or another Wadden island", "notes": "Weather-flex reservation for Texel, Terschelling or another Wadden island: ferry, bicycles, beach and seals." },
-    { "id": "milan-summer-festival-2027", "title": "Milan Summer Festival", "start": "2027-08-20", "end": "2027-08-22", "category": "special", "location": "Zuiderpark, Den Haag", "notes": "Hindustani-Surinamese and multicultural family festival with Indian-influenced food, music, dance, children's activities and a market.", "url": "https://www.milansummerfestival.nl/", "linkLabel": "View Milan Summer Festival" },
-    { "id": "family-water-weekend", "title": "Family water weekend", "start": "2027-08-21", "end": "2027-08-22", "category": "special", "location": "Biesbosch", "notes": "Biesbosch canoe/whisper-boat trip, picnic and nature-centre visit; keep Sunday as the rain date." },
 
     { "id": "open-trein-festijn-2026", "title": "Open Trein Festijn", "start": "2026-09-18", "end": "2026-09-20", "category": "special", "location": "Railway Museum, Utrecht", "notes": "Enter normally closed trains, locomotives and the Orient Express at the Railway Museum, Utrecht.", "url": "https://www.spoorwegmuseum.nl/ontdek/nu-in-het-museum/open-trein-festijn/" },
     { "id": "buitendag-schoorlse-duinen-2026", "title": "Buitendag Schoorlse Duinen", "start": "2026-09-20", "end": "2026-09-20", "category": "special", "location": "Schoorlse Duinen", "notes": "Forest activities, crafts and a sensory nature walk.", "url": "https://www.staatsbosbeheer.nl/uit-in-de-natuur/buitendag-schoorlse-duinen" },
