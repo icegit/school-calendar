@@ -73,6 +73,10 @@ a:focus-visible {
 }
 
 .hero__inner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
   padding: 38px 0 8px;
 }
 
@@ -106,6 +110,24 @@ a:focus-visible {
 .hero h1 #hero-year {
   color: var(--holiday);
   white-space: nowrap;
+}
+
+.past-months-toggle {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 5px;
+  background: #eee;
+  color: #777;
+  cursor: pointer;
+}
+
+.past-months-toggle:hover {
+  background: #e8e8e8;
+}
+
+.past-months-toggle[aria-expanded="true"] {
+  background: #f5f5f5;
 }
 
 .hero__description {
@@ -610,6 +632,9 @@ a:focus-visible {
   }
 
   .hero__inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
     padding-top: 24px;
   }
 

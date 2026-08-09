@@ -4,6 +4,7 @@ const elements = {
   loading: document.querySelector("#loading-state"),
   heroYear: document.querySelector("#hero-year"),
   heading: document.querySelector("#calendar-heading"),
+  pastMonthsToggle: document.querySelector("#past-months-toggle"),
   dialog: document.querySelector("#day-dialog"),
   dialogDate: document.querySelector("#dialog-date"),
   dialogEvents: document.querySelector("#dialog-events"),
@@ -14,6 +15,7 @@ const state = {
   manifest: null,
   calendar: null,
   eventsByDate: new Map(),
+  showPastMonths: false,
 };
 
 const isoDatePattern = /^\d{4}-\d{2}-\d{2}$/;
@@ -54,6 +56,12 @@ function monthSequence(startValue, endValue) {
   }
 
   return months;
+}
+
+function isPastMonth(monthDate) {
+  const today = new Date();
+  const currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+  return monthDate < currentMonth;
 }
 
 function eventColor(categoryId) {
@@ -266,8 +274,16 @@ function renderCalendar() {
   elements.grid.replaceChildren();
   const fragment = document.createDocumentFragment();
   const months = monthSequence(state.calendar.startMonth, state.calendar.endMonth);
+  const pastMonthCount = months.filter(isPastMonth).length;
+
+  elements.pastMonthsToggle.hidden = pastMonthCount === 0;
+  elements.pastMonthsToggle.setAttribute("aria-expanded", String(state.showPastMonths));
+  elements.pastMonthsToggle.textContent = state.showPastMonths
+    ? "Hide past months"
+    : "Show past months";
 
   for (const month of months) {
+    if (isPastMonth(month) && !state.showPastMonths) continue;
     fragment.append(renderMonth(month));
   }
 
@@ -359,6 +375,7 @@ async function loadYear(yearId) {
 
   state.calendar = calendar;
   state.eventsByDate = buildEventIndex(calendar.events);
+  state.showPastMonths = false;
   elements.yearSelect.value = selected.id;
   elements.heroYear.textContent = calendar.label;
   elements.heading.textContent = `School Year ${calendar.label}`;
@@ -395,6 +412,10 @@ async function init() {
 }
 
 elements.yearSelect.addEventListener("change", () => loadYear(elements.yearSelect.value));
+elements.pastMonthsToggle.addEventListener("click", () => {
+  state.showPastMonths = !state.showPastMonths;
+  renderCalendar();
+});
 elements.dialogClose.addEventListener("click", () => elements.dialog.close());
 elements.dialog.addEventListener("click", (event) => {
   if (event.target === elements.dialog) elements.dialog.close();
