@@ -1,0 +1,341 @@
+{
+  "id": "2026-2027",
+  "label": "2026 / 2027",
+  "title": "School calendar",
+  "description": "Holidays, test weeks, and the days worth remembering—all in one calm view.",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2026-08",
+  "endMonth": "2027-09",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#6f5bc7"
+    }
+  },
+  "events": [
+    {
+      "id": "summer-holiday-2026",
+      "title": "Zomervakantie",
+      "start": "2026-08-01",
+      "end": "2026-08-16",
+      "category": "holiday"
+    },
+    {
+      "id": "autumn-holiday",
+      "title": "Herfstvakantie",
+      "start": "2026-10-10",
+      "end": "2026-10-18",
+      "category": "holiday"
+    },
+    {
+      "id": "christmas-holiday",
+      "title": "Kerstvakantie",
+      "start": "2026-12-19",
+      "end": "2027-01-03",
+      "category": "holiday"
+    },
+    {
+      "id": "spring-holiday",
+      "title": "Voorjaarsvakantie",
+      "start": "2027-02-20",
+      "end": "2027-02-28",
+      "category": "holiday"
+    },
+    {
+      "id": "easter-monday",
+      "title": "Tweede paasdag",
+      "start": "2027-03-29",
+      "end": "2027-03-29",
+      "category": "holiday"
+    },
+    {
+      "id": "may-holiday",
+      "title": "Meivakantie",
+      "start": "2027-04-24",
+      "end": "2027-05-09",
+      "category": "holiday"
+    },
+    {
+      "id": "ascension",
+      "title": "Hemelvaart",
+      "start": "2027-05-06",
+      "end": "2027-05-07",
+      "category": "holiday"
+    },
+    {
+      "id": "whit-monday",
+      "title": "2e Pinksterdag",
+      "start": "2027-05-17",
+      "end": "2027-05-17",
+      "category": "holiday"
+    },
+    {
+      "id": "summer-holiday-2027",
+      "title": "Zomervakantie",
+      "start": "2027-07-10",
+      "end": "2027-08-22",
+      "category": "holiday"
+    },
+    {
+      "id": "test-week-1",
+      "title": "KKC Toetsweek 1",
+      "start": "2026-10-05",
+      "end": "2026-10-09",
+      "category": "exam"
+    },
+    {
+      "id": "test-week-2",
+      "title": "KKC Toetsweek 2",
+      "start": "2026-12-14",
+      "end": "2026-12-18",
+      "category": "exam"
+    },
+    {
+      "id": "test-week-3",
+      "title": "KKC Toetsweek 3",
+      "start": "2027-02-22",
+      "end": "2027-02-26",
+      "category": "exam"
+    },
+    {
+      "id": "test-week-4",
+      "title": "KKC Toetsweek 4",
+      "start": "2027-04-19",
+      "end": "2027-04-23",
+      "category": "exam"
+    },
+    {
+      "id": "cito-test",
+      "title": "KKC Citotoets",
+      "start": "2027-05-10",
+      "end": "2027-05-11",
+      "category": "exam"
+    },
+    {
+      "id": "test-week-5",
+      "title": "KKC Toetsweek 5",
+      "start": "2027-06-21",
+      "end": "2027-06-25",
+      "category": "exam"
+    },
+    {
+      "id": "child-1-birthday",
+      "title": "Child 1's birthday",
+      "start": "2027-07-14",
+      "end": "2027-07-14",
+      "category": "special"
+    },
+    {
+      "id": "child-2-birthday",
+      "title": "Child 2's birthday",
+      "start": "2027-08-23",
+      "end": "2027-08-23",
+      "category": "special"
+    },
+    {
+      "id": "mom-birthday",
+      "title": "Mom's birthday",
+      "start": "2027-09-13",
+      "end": "2027-09-13",
+      "category": "special"
+    },
+    {
+      "id": "dad-birthday",
+      "title": "Dad's birthday",
+      "start": "2027-01-04",
+      "end": "2027-01-04",
+      "category": "special"
+    },
+    {
+      "id": "wedding-anniversary",
+      "title": "Wedding Anniversary",
+      "start": "2027-08-11",
+      "end": "2027-08-11",
+      "category": "special"
+    },
+    {
+      "id": "valentines-day",
+      "title": "Valentine's Day",
+      "start": "2027-02-14",
+      "end": "2027-02-14",
+      "category": "special"
+    },
+    {
+      "id": "mothers-day",
+      "title": "Mother's Day",
+      "start": "2027-05-09",
+      "end": "2027-05-09",
+      "category": "special"
+    },
+    {
+      "id": "fathers-day",
+      "title": "Father's Day",
+      "start": "2027-06-20",
+      "end": "2027-06-20",
+      "category": "special"
+    },
+    {
+      "id": "eid-al-fitr",
+      "title": "Eid al-Fitr (Ramadan)",
+      "start": "2027-03-09",
+      "end": "2027-03-11",
+      "category": "special"
+    },
+    {
+      "id": "eid-al-adha",
+      "title": "Eid al-Adha (Sacrifice)",
+      "start": "2027-05-16",
+      "end": "2027-05-19",
+      "category": "special"
+    },
+    {
+      "id": "wintertime",
+      "title": "Wintertime",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "category": "special"
+    },
+    {
+      "id": "summertime",
+      "title": "Summertime",
+      "start": "2027-03-28",
+      "end": "2027-03-28",
+      "category": "special"
+    },
+    {
+      "id": "prinsjesdag",
+      "title": "Prinsjesdag",
+      "start": "2026-09-15",
+      "end": "2026-09-15",
+      "category": "special"
+    },
+    {
+      "id": "burendag",
+      "title": "Burendag",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "category": "special"
+    },
+    {
+      "id": "science-weekend",
+      "title": "Weekend van de Wetenschap",
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "category": "special"
+    },
+    {
+      "id": "development-day-1",
+      "title": "KKC Ontwikkedag 1",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "category": "special"
+    },
+    {
+      "id": "halloween",
+      "title": "Halloween",
+      "start": "2026-10-30",
+      "end": "2026-10-30",
+      "category": "special"
+    },
+    {
+      "id": "sint-maarten",
+      "title": "Sint Maarten",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "category": "special"
+    },
+    {
+      "id": "black-friday",
+      "title": "Black Friday & Cyber Monday",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "category": "special"
+    },
+    {
+      "id": "sinterklaas",
+      "title": "Sinterklaas",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "category": "special"
+    },
+    {
+      "id": "development-day-2",
+      "title": "KKC Ontwikkedag 2",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "category": "special"
+    },
+    {
+      "id": "three-kings-day",
+      "title": "Three Kings Day",
+      "start": "2027-01-05",
+      "end": "2027-01-05",
+      "category": "special"
+    },
+    {
+      "id": "carnival",
+      "title": "Carnival",
+      "start": "2027-02-21",
+      "end": "2027-02-23",
+      "category": "special"
+    },
+    {
+      "id": "chinese-new-year",
+      "title": "Chinese New Year",
+      "start": "2027-02-23",
+      "end": "2027-02-23",
+      "category": "special"
+    },
+    {
+      "id": "womens-day",
+      "title": "Women's Day",
+      "start": "2027-03-14",
+      "end": "2027-03-14",
+      "category": "special"
+    },
+    {
+      "id": "koningsspelen",
+      "title": "Koningsspelen",
+      "start": "2027-04-23",
+      "end": "2027-04-23",
+      "category": "special"
+    },
+    {
+      "id": "remembrance-day",
+      "title": "Remembrance Day",
+      "start": "2027-05-03",
+      "end": "2027-05-03",
+      "category": "special"
+    },
+    {
+      "id": "liberation-day",
+      "title": "Bevrijdingsdag",
+      "start": "2027-05-04",
+      "end": "2027-05-04",
+      "category": "special"
+    },
+    {
+      "id": "four-days-marches",
+      "title": "Nijmeegse Vierdaagse",
+      "start": "2027-07-20",
+      "end": "2027-07-23",
+      "category": "special"
+    },
+    {
+      "id": "heritage-days",
+      "title": "European Heritage Days",
+      "start": "2026-09-12",
+      "end": "2026-09-13",
+      "category": "special"
+    }
+  ]
+}
