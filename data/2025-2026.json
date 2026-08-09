@@ -1,0 +1,473 @@
+{
+  "id": "2025-2026",
+  "label": "2025 / 2026",
+  "title": "School Year",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2025-08",
+  "endMonth": "2026-07",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "family": {
+      "label": "Family special",
+      "color": "#d97706"
+    },
+    "hold": {
+      "label": "Date Unconfirmed",
+      "color": "#aaa"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#526fa5"
+    }
+  },
+  "events": [
+    {
+      "id": "zomervakantie-2025-08-01",
+      "title": "Zomervakantie",
+      "start": "2025-08-01",
+      "end": "2025-08-24",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "anniversary-2025",
+      "title": "Anniversary",
+      "start": "2025-08-11",
+      "end": "2025-08-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "son-s-birthday-2025",
+      "title": "Son's birthday",
+      "start": "2025-08-23",
+      "end": "2025-08-23",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "kes-studiedag-2025-08-25",
+      "title": "KES Studiedag",
+      "start": "2025-08-25",
+      "end": "2025-08-25",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "mom-s-birthday-2025",
+      "title": "Mom's birthday",
+      "start": "2025-09-13",
+      "end": "2025-09-13",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "european-heritage-days-2025-09-13",
+      "title": "European Heritage Days",
+      "start": "2025-09-13",
+      "end": "2025-09-14",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "prinsjesdag-2025-09-16",
+      "title": "Prinsjesdag",
+      "start": "2025-09-16",
+      "end": "2025-09-16",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "burendag-2025-09-27",
+      "title": "Burendag",
+      "start": "2025-09-27",
+      "end": "2025-09-27",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "weekend-van-de-wetenschap-2025-10-04",
+      "title": "Weekend van de Wetenschap",
+      "start": "2025-10-04",
+      "end": "2025-10-05",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "toetsweek-1-2025-10-13",
+      "title": "Toetsweek 1",
+      "start": "2025-10-13",
+      "end": "2025-10-17",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "herfstvakantie-2025-10-18",
+      "title": "Herfstvakantie",
+      "start": "2025-10-18",
+      "end": "2025-10-26",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "wintertime-2025-10-26",
+      "title": "Wintertime",
+      "start": "2025-10-26",
+      "end": "2025-10-26",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "halloween-2025-10-31",
+      "title": "Halloween",
+      "start": "2025-10-31",
+      "end": "2025-10-31",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-studiedag-2025-11-05",
+      "title": "KES Studiedag",
+      "start": "2025-11-05",
+      "end": "2025-11-05",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "sint-maarten-2025-11-11",
+      "title": "Sint Maarten",
+      "start": "2025-11-11",
+      "end": "2025-11-11",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "black-friday-cyber-monday-2025-11-28",
+      "title": "Black Friday & Cyber Monday",
+      "start": "2025-11-28",
+      "end": "2025-12-01",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "sinterklaas-2025-12-05",
+      "title": "Sinterklaas",
+      "start": "2025-12-05",
+      "end": "2025-12-05",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "toetsweek-2-2025-12-08",
+      "title": "Toetsweek 2",
+      "start": "2025-12-08",
+      "end": "2025-12-17",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kerstvakantie-2025-12-20",
+      "title": "Kerstvakantie",
+      "start": "2025-12-20",
+      "end": "2026-01-04",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "dad-s-birthday-2026",
+      "title": "Dad's birthday",
+      "start": "2026-01-04",
+      "end": "2026-01-04",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "three-kings-day-2026-01-06",
+      "title": "Three Kings Day",
+      "start": "2026-01-06",
+      "end": "2026-01-06",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-citotoets-1-2026-01-19",
+      "title": "KES Citotoets 1",
+      "start": "2026-01-19",
+      "end": "2026-01-23",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "kes-doorstroom-2026-02-09",
+      "title": "KES Doorstroom",
+      "start": "2026-02-09",
+      "end": "2026-02-20",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "valentine-s-day-2026",
+      "title": "Valentine's Day",
+      "start": "2026-02-14",
+      "end": "2026-02-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "carnival-2026-02-15",
+      "title": "Carnival",
+      "start": "2026-02-15",
+      "end": "2026-02-17",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "toetsweek-3-2026-02-16",
+      "title": "Toetsweek 3",
+      "start": "2026-02-16",
+      "end": "2026-02-20",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "chinese-new-year-2026-02-17",
+      "title": "Chinese New Year",
+      "start": "2026-02-17",
+      "end": "2026-02-17",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-studiedag-2026-02-20",
+      "title": "KES Studiedag",
+      "start": "2026-02-20",
+      "end": "2026-02-20",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "voorjaarsvakantie-2026-02-21",
+      "title": "Voorjaarsvakantie",
+      "start": "2026-02-21",
+      "end": "2026-03-01",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "women-s-day-2026-03-08",
+      "title": "Women's Day",
+      "start": "2026-03-08",
+      "end": "2026-03-08",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "eid-al-fitr-ramadan-2026-03-20",
+      "title": "Eid al-Fitr (Ramadan)",
+      "start": "2026-03-20",
+      "end": "2026-03-22",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "daylight-saving-time-2026-03-29",
+      "title": "Daylight Saving Time",
+      "start": "2026-03-29",
+      "end": "2026-03-29",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "april-fools-day-2026-04-01",
+      "title": "April Fools Day",
+      "start": "2026-04-01",
+      "end": "2026-04-01",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "paasvakantie-2026-04-03",
+      "title": "Paasvakantie",
+      "start": "2026-04-03",
+      "end": "2026-04-06",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "toetsweek-4-2026-04-13",
+      "title": "Toetsweek 4",
+      "start": "2026-04-13",
+      "end": "2026-04-17",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "meivakantie-2026-04-18",
+      "title": "Meivakantie",
+      "start": "2026-04-18",
+      "end": "2026-05-03",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "koningsspelen-2026-04-24",
+      "title": "Koningsspelen",
+      "start": "2026-04-24",
+      "end": "2026-04-24",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "labor-day-2026-05-01",
+      "title": "Labor Day",
+      "start": "2026-05-01",
+      "end": "2026-05-01",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-studiedag-2026-05-04",
+      "title": "KES Studiedag",
+      "start": "2026-05-04",
+      "end": "2026-05-04",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "remembrance-day-2026-05-04",
+      "title": "Remembrance Day",
+      "start": "2026-05-04",
+      "end": "2026-05-04",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "bevrijdingsdag-2026-05-05",
+      "title": "Bevrijdingsdag",
+      "start": "2026-05-05",
+      "end": "2026-05-05",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "kkc-citotoets-2026-05-07",
+      "title": "KKC Citotoets",
+      "start": "2026-05-07",
+      "end": "2026-05-12",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "mother-s-day-2026",
+      "title": "Mother's Day",
+      "start": "2026-05-10",
+      "end": "2026-05-10",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "hemelvaart-2026-05-14",
+      "title": "Hemelvaart",
+      "start": "2026-05-14",
+      "end": "2026-05-17",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "2e-pinksterdag-2026-05-23",
+      "title": "2e Pinksterdag",
+      "start": "2026-05-23",
+      "end": "2026-05-25",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "eid-al-adha-sacrifice-2026-05-27",
+      "title": "Eid al-Adha (Sacrifice)",
+      "start": "2026-05-27",
+      "end": "2026-05-30",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-studiemiddag-2026-06-10",
+      "title": "KES Studiemiddag",
+      "start": "2026-06-10",
+      "end": "2026-06-10",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "toetsweek-5-2026-06-12",
+      "title": "Toetsweek 5",
+      "start": "2026-06-12",
+      "end": "2026-06-19",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kes-citotoets-2-2026-06-15",
+      "title": "KES Citotoets 2",
+      "start": "2026-06-15",
+      "end": "2026-06-19",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "father-s-day-2026",
+      "title": "Father's Day",
+      "start": "2026-06-21",
+      "end": "2026-06-21",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "zomervakantie-2026-07-04",
+      "title": "Zomervakantie",
+      "start": "2026-07-04",
+      "end": "2026-08-16",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "daughter-s-birthday-2026",
+      "title": "Daughter's birthday",
+      "start": "2026-07-14",
+      "end": "2026-07-14",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "tilburgse-kermis-2026-07-17",
+      "title": "Tilburgse Kermis",
+      "start": "2026-07-17",
+      "end": "2026-07-26",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "nijmeegse-vierdaagse-2026-07-21",
+      "title": "Nijmeegse Vierdaagse",
+      "start": "2026-07-21",
+      "end": "2026-07-24",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "gay-parade-2026-07-25",
+      "title": "Gay Parade",
+      "start": "2026-07-25",
+      "end": "2026-08-02",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    }
+  ]
+}

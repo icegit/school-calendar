@@ -1,0 +1,305 @@
+{
+  "id": "2024-2025",
+  "label": "2024 / 2025",
+  "title": "School Year",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2024-08",
+  "endMonth": "2025-07",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "family": {
+      "label": "Family special",
+      "color": "#d97706"
+    },
+    "hold": {
+      "label": "Date Unconfirmed",
+      "color": "#aaa"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#526fa5"
+    }
+  },
+  "events": [
+    {
+      "id": "anniversary-2024",
+      "title": "Anniversary",
+      "start": "2024-08-11",
+      "end": "2024-08-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "son-s-birthday-2024",
+      "title": "Son's birthday",
+      "start": "2024-08-23",
+      "end": "2024-08-23",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "mom-s-birthday-2024",
+      "title": "Mom's birthday",
+      "start": "2024-09-13",
+      "end": "2024-09-13",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "weekend-van-de-wetenschap-2024-10-05",
+      "title": "Weekend van de Wetenschap",
+      "start": "2024-10-05",
+      "end": "2024-10-06",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kkc-citotoets-1-2024-10-21",
+      "title": "KKC Citotoets 1",
+      "start": "2024-10-21",
+      "end": "2024-10-25",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "toetsweek-1-2024-10-21",
+      "title": "Toetsweek 1",
+      "start": "2024-10-21",
+      "end": "2024-10-25",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "herfstvakantie-2024-10-26",
+      "title": "Herfstvakantie",
+      "start": "2024-10-26",
+      "end": "2024-11-03",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "museum-nacht-2024-11-02",
+      "title": "Museum Nacht",
+      "start": "2024-11-02",
+      "end": "2024-11-02",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "sinterklaasviering-2024-12-03",
+      "title": "Sinterklaasviering",
+      "start": "2024-12-03",
+      "end": "2024-12-03",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-studiedag-2024-12-06",
+      "title": "KES Studiedag",
+      "start": "2024-12-06",
+      "end": "2024-12-06",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "toetsweek-2-2024-12-10",
+      "title": "Toetsweek 2",
+      "start": "2024-12-10",
+      "end": "2024-12-18",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kerstvakantie-2024-12-21",
+      "title": "Kerstvakantie",
+      "start": "2024-12-21",
+      "end": "2025-01-05",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "dad-s-birthday-2025",
+      "title": "Dad's birthday",
+      "start": "2025-01-04",
+      "end": "2025-01-04",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "kes-citotoets-1-2025-01-20",
+      "title": "KES Citotoets 1",
+      "start": "2025-01-20",
+      "end": "2025-01-24",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "toetsweek-3-2025-02-10",
+      "title": "Toetsweek 3",
+      "start": "2025-02-10",
+      "end": "2025-02-14",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kes-studiedag-2025-02-14",
+      "title": "KES Studiedag",
+      "start": "2025-02-14",
+      "end": "2025-02-14",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "valentine-s-day-2025",
+      "title": "Valentine's Day",
+      "start": "2025-02-14",
+      "end": "2025-02-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "voorjaarsvakantie-2025-02-15",
+      "title": "Voorjaarsvakantie",
+      "start": "2025-02-15",
+      "end": "2025-02-23",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "eid-al-fitr-2025-03-30",
+      "title": "Eid al-Fitr",
+      "start": "2025-03-30",
+      "end": "2025-04-01",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "toetsweek-4-2025-04-14",
+      "title": "Toetsweek 4",
+      "start": "2025-04-14",
+      "end": "2025-04-18",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "paasvakantie-2025-04-19",
+      "title": "Paasvakantie",
+      "start": "2025-04-19",
+      "end": "2025-04-21",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "meivakantie-2025-04-19",
+      "title": "Meivakantie",
+      "start": "2025-04-19",
+      "end": "2025-05-04",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "bevrijdingsdag-2025-05-05",
+      "title": "Bevrijdingsdag",
+      "start": "2025-05-05",
+      "end": "2025-05-05",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "mother-s-day-2025",
+      "title": "Mother's Day",
+      "start": "2025-05-11",
+      "end": "2025-05-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "kkc-citotoets-2-2025-05-12",
+      "title": "KKC Citotoets 2",
+      "start": "2025-05-12",
+      "end": "2025-05-16",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kes-studiemiddag-2025-05-28",
+      "title": "KES Studiemiddag",
+      "start": "2025-05-28",
+      "end": "2025-05-28",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "hemelvaart-2025-05-29",
+      "title": "Hemelvaart",
+      "start": "2025-05-29",
+      "end": "2025-05-30",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "eid-al-adha-2025-06-06",
+      "title": "Eid al-Adha",
+      "start": "2025-06-06",
+      "end": "2025-06-09",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "2e-pinksterdag-2025-06-09",
+      "title": "2e Pinksterdag",
+      "start": "2025-06-09",
+      "end": "2025-06-09",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "father-s-day-2025",
+      "title": "Father's Day",
+      "start": "2025-06-15",
+      "end": "2025-06-15",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "toetsweek-5-2025-06-20",
+      "title": "Toetsweek 5",
+      "start": "2025-06-20",
+      "end": "2025-06-27",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kes-citotoets-2-2025-06-23",
+      "title": "KES Citotoets 2",
+      "start": "2025-06-23",
+      "end": "2025-07-04",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "zomervakantie-2025-07-12",
+      "title": "Zomervakantie",
+      "start": "2025-07-12",
+      "end": "2025-08-24",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "daughter-s-birthday-2025",
+      "title": "Daughter's birthday",
+      "start": "2025-07-14",
+      "end": "2025-07-14",
+      "category": "family",
+      "location": "Home"
+    }
+  ]
+}

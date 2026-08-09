@@ -1,0 +1,185 @@
+{
+  "id": "2027-2028",
+  "label": "2027 / 2028",
+  "title": "School Year",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2027-08",
+  "endMonth": "2028-07",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "family": {
+      "label": "Family special",
+      "color": "#d97706"
+    },
+    "hold": {
+      "label": "Date Unconfirmed",
+      "color": "#aaa"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#526fa5"
+    }
+  },
+  "events": [
+    {
+      "id": "summer-holiday-2027-start",
+      "title": "Zomervakantie",
+      "start": "2027-08-01",
+      "end": "2027-08-22",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "anniversary-2027",
+      "title": "Anniversary",
+      "start": "2027-08-11",
+      "end": "2027-08-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "son-s-birthday-2027",
+      "title": "Son's birthday",
+      "start": "2027-08-23",
+      "end": "2027-08-23",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "mom-s-birthday-2027",
+      "title": "Mom's birthday",
+      "start": "2027-09-13",
+      "end": "2027-09-13",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "test-week-1",
+      "title": "Toetsweek 1",
+      "start": "2027-10-11",
+      "end": "2027-10-15",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "herfstvakantie-2027-1",
+      "title": "Herfstvakantie",
+      "start": "2027-10-16",
+      "end": "2027-10-24",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "test-week-2",
+      "title": "Toetsweek 2",
+      "start": "2027-12-20",
+      "end": "2027-12-24",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kerstvakantie-2027-2",
+      "title": "Kerstvakantie",
+      "start": "2027-12-25",
+      "end": "2028-01-09",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "dad-s-birthday-2028",
+      "title": "Dad's birthday",
+      "start": "2028-01-04",
+      "end": "2028-01-04",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "valentine-s-day-2028",
+      "title": "Valentine's Day",
+      "start": "2028-02-14",
+      "end": "2028-02-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "test-week-3",
+      "title": "Toetsweek 3",
+      "start": "2028-02-14",
+      "end": "2028-02-18",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "voorjaarsvakantie-2028-3",
+      "title": "Voorjaarsvakantie",
+      "start": "2028-02-19",
+      "end": "2028-02-27",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "test-week-4",
+      "title": "Toetsweek 4",
+      "start": "2028-04-17",
+      "end": "2028-04-21",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "meivakantie-2028-4",
+      "title": "Meivakantie",
+      "start": "2028-04-22",
+      "end": "2028-05-07",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "mother-s-day-2028",
+      "title": "Mother's Day",
+      "start": "2028-05-14",
+      "end": "2028-05-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "father-s-day-2028",
+      "title": "Father's Day",
+      "start": "2028-06-18",
+      "end": "2028-06-18",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "test-week-5",
+      "title": "Toetsweek 5",
+      "start": "2028-06-26",
+      "end": "2028-06-30",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "daughter-s-birthday-2028",
+      "title": "Daughter's birthday",
+      "start": "2028-07-14",
+      "end": "2028-07-14",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "zomervakantie-2028-5",
+      "title": "Zomervakantie",
+      "start": "2028-07-15",
+      "end": "2028-08-27",
+      "category": "holiday",
+      "location": "Netherlands"
+    }
+  ]
+}

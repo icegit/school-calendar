@@ -1,0 +1,185 @@
+{
+  "id": "2029-2030",
+  "label": "2029 / 2030",
+  "title": "School Year",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2029-08",
+  "endMonth": "2030-07",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "family": {
+      "label": "Family special",
+      "color": "#d97706"
+    },
+    "hold": {
+      "label": "Date Unconfirmed",
+      "color": "#aaa"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#526fa5"
+    }
+  },
+  "events": [
+    {
+      "id": "summer-holiday-2029-start",
+      "title": "Zomervakantie",
+      "start": "2029-08-01",
+      "end": "2029-09-02",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "anniversary-2029",
+      "title": "Anniversary",
+      "start": "2029-08-11",
+      "end": "2029-08-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "son-s-birthday-2029",
+      "title": "Son's birthday",
+      "start": "2029-08-23",
+      "end": "2029-08-23",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "mom-s-birthday-2029",
+      "title": "Mom's birthday",
+      "start": "2029-09-13",
+      "end": "2029-09-13",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "test-week-1",
+      "title": "Toetsweek 1",
+      "start": "2029-10-15",
+      "end": "2029-10-19",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "herfstvakantie-2029-1",
+      "title": "Herfstvakantie",
+      "start": "2029-10-20",
+      "end": "2029-10-28",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "test-week-2",
+      "title": "Toetsweek 2",
+      "start": "2029-12-17",
+      "end": "2029-12-21",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kerstvakantie-2029-2",
+      "title": "Kerstvakantie",
+      "start": "2029-12-22",
+      "end": "2030-01-06",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "dad-s-birthday-2030",
+      "title": "Dad's birthday",
+      "start": "2030-01-04",
+      "end": "2030-01-04",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "test-week-3",
+      "title": "Toetsweek 3",
+      "start": "2030-02-11",
+      "end": "2030-02-15",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "valentine-s-day-2030",
+      "title": "Valentine's Day",
+      "start": "2030-02-14",
+      "end": "2030-02-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "voorjaarsvakantie-2030-3",
+      "title": "Voorjaarsvakantie",
+      "start": "2030-02-16",
+      "end": "2030-02-24",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "test-week-4",
+      "title": "Toetsweek 4",
+      "start": "2030-04-15",
+      "end": "2030-04-19",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "meivakantie-2030-4",
+      "title": "Meivakantie",
+      "start": "2030-04-20",
+      "end": "2030-05-05",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "mother-s-day-2030",
+      "title": "Mother's Day",
+      "start": "2030-05-12",
+      "end": "2030-05-12",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "father-s-day-2030",
+      "title": "Father's Day",
+      "start": "2030-06-16",
+      "end": "2030-06-16",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "test-week-5",
+      "title": "Toetsweek 5",
+      "start": "2030-07-01",
+      "end": "2030-07-05",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "daughter-s-birthday-2030",
+      "title": "Daughter's birthday",
+      "start": "2030-07-14",
+      "end": "2030-07-14",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "zomervakantie-2030-5",
+      "title": "Zomervakantie",
+      "start": "2030-07-20",
+      "end": "2030-09-01",
+      "category": "holiday",
+      "location": "Netherlands"
+    }
+  ]
+}

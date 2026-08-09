@@ -1,0 +1,321 @@
+{
+  "id": "2023-2024",
+  "label": "2023 / 2024",
+  "title": "School Year",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2023-08",
+  "endMonth": "2024-07",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "family": {
+      "label": "Family special",
+      "color": "#d97706"
+    },
+    "hold": {
+      "label": "Date Unconfirmed",
+      "color": "#aaa"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#526fa5"
+    }
+  },
+  "events": [
+    {
+      "id": "anniversary-2023",
+      "title": "Anniversary",
+      "start": "2023-08-11",
+      "end": "2023-08-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "son-s-birthday-2023",
+      "title": "Son's birthday",
+      "start": "2023-08-23",
+      "end": "2023-08-23",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "mom-s-birthday-2023",
+      "title": "Mom's birthday",
+      "start": "2023-09-13",
+      "end": "2023-09-13",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "weekend-van-de-wetenschap-2023-10-07",
+      "title": "Weekend van de Wetenschap",
+      "start": "2023-10-07",
+      "end": "2023-10-08",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kkc-kamp-heino-2023-10-09",
+      "title": "KKC Kamp Heino",
+      "start": "2023-10-09",
+      "end": "2023-10-11",
+      "category": "special",
+      "location": "KKC"
+    },
+    {
+      "id": "kes-studiedag-2023-10-11",
+      "title": "KES Studiedag",
+      "start": "2023-10-11",
+      "end": "2023-10-11",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "kkc-leesvrij-2023-10-13",
+      "title": "KKC Leesvrij",
+      "start": "2023-10-13",
+      "end": "2023-10-13",
+      "category": "special",
+      "location": "KKC"
+    },
+    {
+      "id": "kkc-citotoets-1-2023-10-16",
+      "title": "KKC Citotoets 1",
+      "start": "2023-10-16",
+      "end": "2023-10-20",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "toetsweek-1-2023-10-16",
+      "title": "Toetsweek 1",
+      "start": "2023-10-16",
+      "end": "2023-10-20",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "herfstvakantie-2023-10-23",
+      "title": "Herfstvakantie",
+      "start": "2023-10-23",
+      "end": "2023-10-28",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "museum-nacht-2023-11-04",
+      "title": "Museum Nacht",
+      "start": "2023-11-04",
+      "end": "2023-11-05",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "kes-studiedag-2023-11-13",
+      "title": "KES Studiedag",
+      "start": "2023-11-13",
+      "end": "2023-11-13",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "sinterklaasviering-2023-12-05",
+      "title": "Sinterklaasviering",
+      "start": "2023-12-05",
+      "end": "2023-12-05",
+      "category": "special",
+      "location": "School / local venue"
+    },
+    {
+      "id": "kes-studiedag-2023-12-11",
+      "title": "KES Studiedag",
+      "start": "2023-12-11",
+      "end": "2023-12-11",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "toetsweek-2-2023-12-12",
+      "title": "Toetsweek 2",
+      "start": "2023-12-12",
+      "end": "2023-12-20",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "kerstvakantie-2023-12-23",
+      "title": "Kerstvakantie",
+      "start": "2023-12-23",
+      "end": "2024-01-05",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "dad-s-birthday-2024",
+      "title": "Dad's birthday",
+      "start": "2024-01-04",
+      "end": "2024-01-04",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "kes-citotoets-1-2024-01-22",
+      "title": "KES Citotoets 1",
+      "start": "2024-01-22",
+      "end": "2024-01-26",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "kes-studiedag-2024-02-02",
+      "title": "KES Studiedag",
+      "start": "2024-02-02",
+      "end": "2024-02-02",
+      "category": "special",
+      "location": "KES"
+    },
+    {
+      "id": "toetsweek-3-2024-02-12",
+      "title": "Toetsweek 3",
+      "start": "2024-02-12",
+      "end": "2024-02-16",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "valentine-s-day-2024",
+      "title": "Valentine's Day",
+      "start": "2024-02-14",
+      "end": "2024-02-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "voorjaarsvakantie-2024-02-19",
+      "title": "Voorjaarsvakantie",
+      "start": "2024-02-19",
+      "end": "2024-02-23",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "paasvakantie-2024-03-29",
+      "title": "Paasvakantie",
+      "start": "2024-03-29",
+      "end": "2024-04-01",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "kkc-brugklasfeest-2024-04-09",
+      "title": "KKC Brugklasfeest",
+      "start": "2024-04-09",
+      "end": "2024-04-09",
+      "category": "special",
+      "location": "KKC"
+    },
+    {
+      "id": "eid-al-fitr-2024-04-10",
+      "title": "Eid al-Fitr",
+      "start": "2024-04-10",
+      "end": "2024-04-12",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "toetsweek-4-2024-04-19",
+      "title": "Toetsweek 4",
+      "start": "2024-04-19",
+      "end": "2024-04-26",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "meivakantie-2024-04-29",
+      "title": "Meivakantie",
+      "start": "2024-04-29",
+      "end": "2024-05-10",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "mother-s-day-2024",
+      "title": "Mother's Day",
+      "start": "2024-05-12",
+      "end": "2024-05-12",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "kkc-citotoets-2-2024-05-13",
+      "title": "KKC Citotoets 2",
+      "start": "2024-05-13",
+      "end": "2024-05-17",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "2e-pinksterdag-2024-05-20",
+      "title": "2e Pinksterdag",
+      "start": "2024-05-20",
+      "end": "2024-05-20",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "eid-al-adha-2024-06-15",
+      "title": "Eid al-Adha",
+      "start": "2024-06-15",
+      "end": "2024-06-19",
+      "category": "special",
+      "location": "Netherlands / venue varies"
+    },
+    {
+      "id": "father-s-day-2024",
+      "title": "Father's Day",
+      "start": "2024-06-16",
+      "end": "2024-06-16",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "kes-citotoets-2-2024-06-24",
+      "title": "KES Citotoets 2",
+      "start": "2024-06-24",
+      "end": "2024-07-05",
+      "category": "exam",
+      "location": "KES"
+    },
+    {
+      "id": "toetsweek-5-2024-06-28",
+      "title": "Toetsweek 5",
+      "start": "2024-06-28",
+      "end": "2024-07-05",
+      "category": "exam",
+      "location": "KKC"
+    },
+    {
+      "id": "daughter-s-birthday-2024",
+      "title": "Daughter's birthday",
+      "start": "2024-07-14",
+      "end": "2024-07-14",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "zomervakantie-2024-07-20",
+      "title": "Zomervakantie",
+      "start": "2024-07-20",
+      "end": "2024-08-31",
+      "category": "holiday",
+      "location": "Netherlands"
+    }
+  ]
+}

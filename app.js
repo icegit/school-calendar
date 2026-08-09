@@ -64,6 +64,20 @@ function isPastMonth(monthDate) {
   return monthDate < currentMonth;
 }
 
+function isCurrentSchoolYear(calendar) {
+  const today = new Date();
+  const start = parseMonth(calendar.startMonth);
+  const lastMonth = parseMonth(calendar.endMonth);
+  const end = new Date(lastMonth.getFullYear(), lastMonth.getMonth() + 1, 0, 23, 59, 59, 999);
+  return today >= start && today <= end;
+}
+
+function currentSchoolYearId() {
+  const today = new Date();
+  const startYear = today.getMonth() >= 7 ? today.getFullYear() : today.getFullYear() - 1;
+  return `${startYear}-${startYear + 1}`;
+}
+
 function eventColor(categoryId) {
   return state.calendar.categories[categoryId]?.color || "#66716c";
 }
@@ -274,7 +288,8 @@ function renderCalendar() {
   elements.grid.replaceChildren();
   const fragment = document.createDocumentFragment();
   const months = monthSequence(state.calendar.startMonth, state.calendar.endMonth);
-  const pastMonthCount = months.filter(isPastMonth).length;
+  const collapsePastMonths = isCurrentSchoolYear(state.calendar);
+  const pastMonthCount = collapsePastMonths ? months.filter(isPastMonth).length : 0;
 
   elements.pastMonthsToggle.hidden = pastMonthCount === 0;
   elements.pastMonthsToggle.setAttribute("aria-expanded", String(state.showPastMonths));
@@ -283,7 +298,7 @@ function renderCalendar() {
     : "Show past months";
 
   for (const month of months) {
-    if (isPastMonth(month) && !state.showPastMonths) continue;
+    if (collapsePastMonths && isPastMonth(month) && !state.showPastMonths) continue;
     fragment.append(renderMonth(month));
   }
 
@@ -396,9 +411,12 @@ async function init() {
     renderYearOptions();
 
     const requested = new URLSearchParams(window.location.search).get("year");
+    const current = currentSchoolYearId();
     const initial = state.manifest.years.some((year) => year.id === requested)
       ? requested
-      : state.manifest.default || state.manifest.years[0].id;
+      : state.manifest.years.some((year) => year.id === current)
+        ? current
+        : state.manifest.default || state.manifest.years[0].id;
     await loadYear(initial);
   } catch (error) {
     console.error(error);

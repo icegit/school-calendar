@@ -1,0 +1,105 @@
+{
+  "id": "2030-2031",
+  "label": "2030 / 2031",
+  "title": "School Year",
+  "locale": "en-GB",
+  "timezone": "Europe/Amsterdam",
+  "startMonth": "2030-08",
+  "endMonth": "2031-07",
+  "categories": {
+    "holiday": {
+      "label": "School holidays",
+      "color": "#22865b"
+    },
+    "exam": {
+      "label": "Exam weeks",
+      "color": "#d64d55"
+    },
+    "family": {
+      "label": "Family special",
+      "color": "#d97706"
+    },
+    "hold": {
+      "label": "Date Unconfirmed",
+      "color": "#aaa"
+    },
+    "special": {
+      "label": "Special days",
+      "color": "#526fa5"
+    }
+  },
+  "events": [
+    {
+      "id": "summer-holiday-2030-start",
+      "title": "Zomervakantie",
+      "start": "2030-08-01",
+      "end": "2030-09-01",
+      "category": "holiday",
+      "location": "Netherlands"
+    },
+    {
+      "id": "anniversary-2030",
+      "title": "Anniversary",
+      "start": "2030-08-11",
+      "end": "2030-08-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "son-s-birthday-2030",
+      "title": "Son's birthday",
+      "start": "2030-08-23",
+      "end": "2030-08-23",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "mom-s-birthday-2030",
+      "title": "Mom's birthday",
+      "start": "2030-09-13",
+      "end": "2030-09-13",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "dad-s-birthday-2031",
+      "title": "Dad's birthday",
+      "start": "2031-01-04",
+      "end": "2031-01-04",
+      "category": "family",
+      "location": "Home"
+    },
+    {
+      "id": "valentine-s-day-2031",
+      "title": "Valentine's Day",
+      "start": "2031-02-14",
+      "end": "2031-02-14",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "mother-s-day-2031",
+      "title": "Mother's Day",
+      "start": "2031-05-11",
+      "end": "2031-05-11",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "father-s-day-2031",
+      "title": "Father's Day",
+      "start": "2031-06-15",
+      "end": "2031-06-15",
+      "category": "family",
+      "location": "Home / planned venue"
+    },
+    {
+      "id": "daughter-s-birthday-2031",
+      "title": "Daughter's birthday",
+      "start": "2031-07-14",
+      "end": "2031-07-14",
+      "category": "family",
+      "location": "Home"
+    }
+  ]
+}
