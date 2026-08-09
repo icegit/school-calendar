@@ -1,341 +1,81 @@
 {
   "id": "2026-2027",
   "label": "2026 / 2027",
-  "title": "School calendar",
-  "description": "Holidays, test weeks, and the days worth remembering—all in one calm view.",
+  "title": "KKC School Year",
   "locale": "en-GB",
   "timezone": "Europe/Amsterdam",
   "startMonth": "2026-08",
   "endMonth": "2027-09",
   "categories": {
-    "holiday": {
-      "label": "School holidays",
-      "color": "#22865b"
-    },
-    "exam": {
-      "label": "Exam weeks",
-      "color": "#d64d55"
-    },
-    "special": {
-      "label": "Special days",
-      "color": "#6f5bc7"
-    }
+    "holiday": { "label": "School holidays", "color": "#22865b" },
+    "exam": { "label": "Exam weeks", "color": "#d64d55" },
+    "special": { "label": "Special days", "color": "#526fa5" }
   },
   "events": [
-    {
-      "id": "summer-holiday-2026",
-      "title": "Zomervakantie",
-      "start": "2026-08-01",
-      "end": "2026-08-16",
-      "category": "holiday"
-    },
-    {
-      "id": "autumn-holiday",
-      "title": "Herfstvakantie",
-      "start": "2026-10-10",
-      "end": "2026-10-18",
-      "category": "holiday"
-    },
-    {
-      "id": "christmas-holiday",
-      "title": "Kerstvakantie",
-      "start": "2026-12-19",
-      "end": "2027-01-03",
-      "category": "holiday"
-    },
-    {
-      "id": "spring-holiday",
-      "title": "Voorjaarsvakantie",
-      "start": "2027-02-20",
-      "end": "2027-02-28",
-      "category": "holiday"
-    },
-    {
-      "id": "easter-monday",
-      "title": "Tweede paasdag",
-      "start": "2027-03-29",
-      "end": "2027-03-29",
-      "category": "holiday"
-    },
-    {
-      "id": "may-holiday",
-      "title": "Meivakantie",
-      "start": "2027-04-24",
-      "end": "2027-05-09",
-      "category": "holiday"
-    },
-    {
-      "id": "ascension",
-      "title": "Hemelvaart",
-      "start": "2027-05-06",
-      "end": "2027-05-07",
-      "category": "holiday"
-    },
-    {
-      "id": "whit-monday",
-      "title": "2e Pinksterdag",
-      "start": "2027-05-17",
-      "end": "2027-05-17",
-      "category": "holiday"
-    },
-    {
-      "id": "summer-holiday-2027",
-      "title": "Zomervakantie",
-      "start": "2027-07-10",
-      "end": "2027-08-22",
-      "category": "holiday"
-    },
-    {
-      "id": "test-week-1",
-      "title": "KKC Toetsweek 1",
-      "start": "2026-10-05",
-      "end": "2026-10-09",
-      "category": "exam"
-    },
-    {
-      "id": "test-week-2",
-      "title": "KKC Toetsweek 2",
-      "start": "2026-12-14",
-      "end": "2026-12-18",
-      "category": "exam"
-    },
-    {
-      "id": "test-week-3",
-      "title": "KKC Toetsweek 3",
-      "start": "2027-02-22",
-      "end": "2027-02-26",
-      "category": "exam"
-    },
-    {
-      "id": "test-week-4",
-      "title": "KKC Toetsweek 4",
-      "start": "2027-04-19",
-      "end": "2027-04-23",
-      "category": "exam"
-    },
-    {
-      "id": "cito-test",
-      "title": "KKC Citotoets",
-      "start": "2027-05-10",
-      "end": "2027-05-11",
-      "category": "exam"
-    },
-    {
-      "id": "test-week-5",
-      "title": "KKC Toetsweek 5",
-      "start": "2027-06-21",
-      "end": "2027-06-25",
-      "category": "exam"
-    },
-    {
-      "id": "child-1-birthday",
-      "title": "Child 1's birthday",
-      "start": "2027-07-14",
-      "end": "2027-07-14",
-      "category": "special"
-    },
-    {
-      "id": "child-2-birthday",
-      "title": "Child 2's birthday",
-      "start": "2027-08-23",
-      "end": "2027-08-23",
-      "category": "special"
-    },
-    {
-      "id": "mom-birthday",
-      "title": "Mom's birthday",
-      "start": "2027-09-13",
-      "end": "2027-09-13",
-      "category": "special"
-    },
-    {
-      "id": "dad-birthday",
-      "title": "Dad's birthday",
-      "start": "2027-01-04",
-      "end": "2027-01-04",
-      "category": "special"
-    },
-    {
-      "id": "wedding-anniversary",
-      "title": "Wedding Anniversary",
-      "start": "2027-08-11",
-      "end": "2027-08-11",
-      "category": "special"
-    },
-    {
-      "id": "valentines-day",
-      "title": "Valentine's Day",
-      "start": "2027-02-14",
-      "end": "2027-02-14",
-      "category": "special"
-    },
-    {
-      "id": "mothers-day",
-      "title": "Mother's Day",
-      "start": "2027-05-09",
-      "end": "2027-05-09",
-      "category": "special"
-    },
-    {
-      "id": "fathers-day",
-      "title": "Father's Day",
-      "start": "2027-06-20",
-      "end": "2027-06-20",
-      "category": "special"
-    },
-    {
-      "id": "eid-al-fitr",
-      "title": "Eid al-Fitr (Ramadan)",
-      "start": "2027-03-09",
-      "end": "2027-03-11",
-      "category": "special"
-    },
-    {
-      "id": "eid-al-adha",
-      "title": "Eid al-Adha (Sacrifice)",
-      "start": "2027-05-16",
-      "end": "2027-05-19",
-      "category": "special"
-    },
-    {
-      "id": "wintertime",
-      "title": "Wintertime",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "category": "special"
-    },
-    {
-      "id": "summertime",
-      "title": "Summertime",
-      "start": "2027-03-28",
-      "end": "2027-03-28",
-      "category": "special"
-    },
-    {
-      "id": "prinsjesdag",
-      "title": "Prinsjesdag",
-      "start": "2026-09-15",
-      "end": "2026-09-15",
-      "category": "special"
-    },
-    {
-      "id": "burendag",
-      "title": "Burendag",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "category": "special"
-    },
-    {
-      "id": "science-weekend",
-      "title": "Weekend van de Wetenschap",
-      "start": "2026-10-03",
-      "end": "2026-10-04",
-      "category": "special"
-    },
-    {
-      "id": "development-day-1",
-      "title": "KKC Ontwikkedag 1",
-      "start": "2026-10-05",
-      "end": "2026-10-05",
-      "category": "special"
-    },
-    {
-      "id": "halloween",
-      "title": "Halloween",
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "category": "special"
-    },
-    {
-      "id": "sint-maarten",
-      "title": "Sint Maarten",
-      "start": "2026-11-10",
-      "end": "2026-11-10",
-      "category": "special"
-    },
-    {
-      "id": "black-friday",
-      "title": "Black Friday & Cyber Monday",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "category": "special"
-    },
-    {
-      "id": "sinterklaas",
-      "title": "Sinterklaas",
-      "start": "2026-12-04",
-      "end": "2026-12-04",
-      "category": "special"
-    },
-    {
-      "id": "development-day-2",
-      "title": "KKC Ontwikkedag 2",
-      "start": "2026-12-18",
-      "end": "2026-12-18",
-      "category": "special"
-    },
-    {
-      "id": "three-kings-day",
-      "title": "Three Kings Day",
-      "start": "2027-01-05",
-      "end": "2027-01-05",
-      "category": "special"
-    },
-    {
-      "id": "carnival",
-      "title": "Carnival",
-      "start": "2027-02-21",
-      "end": "2027-02-23",
-      "category": "special"
-    },
-    {
-      "id": "chinese-new-year",
-      "title": "Chinese New Year",
-      "start": "2027-02-23",
-      "end": "2027-02-23",
-      "category": "special"
-    },
-    {
-      "id": "womens-day",
-      "title": "Women's Day",
-      "start": "2027-03-14",
-      "end": "2027-03-14",
-      "category": "special"
-    },
-    {
-      "id": "koningsspelen",
-      "title": "Koningsspelen",
-      "start": "2027-04-23",
-      "end": "2027-04-23",
-      "category": "special"
-    },
-    {
-      "id": "remembrance-day",
-      "title": "Remembrance Day",
-      "start": "2027-05-03",
-      "end": "2027-05-03",
-      "category": "special"
-    },
-    {
-      "id": "liberation-day",
-      "title": "Bevrijdingsdag",
-      "start": "2027-05-04",
-      "end": "2027-05-04",
-      "category": "special"
-    },
-    {
-      "id": "four-days-marches",
-      "title": "Nijmeegse Vierdaagse",
-      "start": "2027-07-20",
-      "end": "2027-07-23",
-      "category": "special"
-    },
-    {
-      "id": "heritage-days",
-      "title": "European Heritage Days",
-      "start": "2026-09-12",
-      "end": "2026-09-13",
-      "category": "special"
-    }
+    { "id": "summer-holiday-2026", "title": "Zomervakantie", "start": "2026-08-01", "end": "2026-08-16", "category": "holiday" },
+    { "id": "autumn-holiday", "title": "Herfstvakantie", "start": "2026-10-10", "end": "2026-10-18", "category": "holiday" },
+    { "id": "christmas-holiday", "title": "Kerstvakantie", "start": "2026-12-19", "end": "2027-01-03", "category": "holiday" },
+    { "id": "spring-holiday", "title": "Voorjaarsvakantie", "start": "2027-02-20", "end": "2027-02-28", "category": "holiday" },
+    { "id": "easter-monday", "title": "Tweede paasdag", "start": "2027-03-29", "end": "2027-03-29", "category": "holiday" },
+    { "id": "may-holiday", "title": "Meivakantie", "start": "2027-04-24", "end": "2027-05-09", "category": "holiday" },
+    { "id": "ascension", "title": "Hemelvaart", "start": "2027-05-06", "end": "2027-05-07", "category": "holiday" },
+    { "id": "whit-monday", "title": "2e Pinksterdag", "start": "2027-05-17", "end": "2027-05-17", "category": "holiday" },
+    { "id": "summer-holiday-2027", "title": "Zomervakantie", "start": "2027-07-10", "end": "2027-08-22", "category": "holiday" },
+
+    { "id": "test-week-1", "title": "KKC Toetsweek 1", "start": "2026-10-05", "end": "2026-10-09", "category": "exam" },
+    { "id": "test-week-2", "title": "KKC Toetsweek 2", "start": "2026-12-14", "end": "2026-12-18", "category": "exam" },
+    { "id": "test-week-3", "title": "KKC Toetsweek 3", "start": "2027-02-22", "end": "2027-02-26", "category": "exam" },
+    { "id": "test-week-4", "title": "KKC Toetsweek 4", "start": "2027-04-19", "end": "2027-04-23", "category": "exam" },
+    { "id": "cito-test", "title": "KKC Citotoets", "start": "2027-05-10", "end": "2027-05-11", "category": "exam" },
+    { "id": "test-week-5", "title": "KKC Toetsweek 5", "start": "2027-06-21", "end": "2027-06-25", "category": "exam" },
+
+    { "id": "daughter-birthday", "title": "Daughter's birthday", "start": "2027-07-14", "end": "2027-07-14", "category": "special" },
+    { "id": "son-birthday", "title": "Son's birthday", "start": "2027-08-23", "end": "2027-08-23", "category": "special" },
+    { "id": "mom-birthday", "title": "Mom's birthday", "start": "2027-09-13", "end": "2027-09-13", "category": "special" },
+    { "id": "dad-birthday", "title": "Dad's birthday", "start": "2027-01-04", "end": "2027-01-04", "category": "special" },
+    { "id": "wedding-anniversary", "title": "Wedding anniversary", "start": "2027-08-11", "end": "2027-08-11", "category": "special" },
+    { "id": "development-day-1", "title": "KKC Ontwikkedag 1", "start": "2026-10-05", "end": "2026-10-05", "category": "special" },
+    { "id": "development-day-2", "title": "KKC Ontwikkedag 2", "start": "2026-12-18", "end": "2026-12-18", "category": "special" },
+
+    { "id": "wereldhavendagen-2026", "title": "Wereldhavendagen", "start": "2026-09-04", "end": "2026-09-06", "category": "special", "location": "Rotterdam", "notes": "Ships, maritime technology and water demonstrations. Saturday offers the fullest family programme and evening show.", "url": "https://wereldhavendagen.nl/" },
+    { "id": "open-monumentendag-2026", "title": "Open Monumentendag", "start": "2026-09-12", "end": "2026-09-13", "category": "special", "notes": "Choose one unusual building and one fort, tower or windmill rather than rushing between many sites.", "url": "https://www.openmonumentendag.nl/" },
+    { "id": "prinsjesdag-2026", "title": "Prinsjesdag", "start": "2026-09-15", "end": "2026-09-15", "category": "special", "location": "Den Haag", "notes": "Watch the royal procession and ceremonial activity; verify the route nearer the date.", "url": "https://www.government.nl/themes/economy/budget-day/princes-day" },
+    { "id": "kinderboekenweek-2026", "title": "Kinderboekenweek", "start": "2026-09-30", "end": "2026-10-11", "category": "special", "notes": "Pick one weekend for a library, children's theatre or bookshop event. The 2026 theme is Spot aan!", "url": "https://www.kinderboekenweek.nl/faq/" },
+    { "id": "science-weekend", "title": "Weekend van de Wetenschap", "start": "2026-10-03", "end": "2026-10-04", "category": "special", "notes": "Strong family pick: laboratories, universities, museums and normally closed research sites.", "url": "https://weekendvandewetenschap.nl/programma/" },
+    { "id": "nacht-van-de-nacht", "title": "Nacht van de Nacht", "start": "2026-10-24", "end": "2026-10-24", "category": "special", "notes": "Book a stargazing evening, dark forest walk or night-animal excursion.", "url": "https://nachtvandenacht.nl/" },
+    { "id": "halloween", "title": "Halloween", "start": "2026-10-31", "end": "2026-10-31", "category": "special", "notes": "Family Halloween trail at a castle, museum, zoo or amusement park; select a daytime session for younger children." },
+    { "id": "museumnacht-amsterdam", "title": "Museumnacht Amsterdam", "start": "2026-11-07", "end": "2026-11-07", "category": "special", "notes": "Best for older children or teenagers; choose three venues within walking distance.", "url": "https://www.iamsterdam.com/en/whats-on/annual-event-calendar" },
+    { "id": "glow-eindhoven", "title": "GLOW Eindhoven", "start": "2026-11-07", "end": "2026-11-14", "category": "special", "notes": "Free light-art walking route. Go early in the evening and combine with dinner.", "url": "https://gloweindhoven.nl/en/practical/" },
+    { "id": "sint-maarten", "title": "Sint-Maarten", "start": "2026-11-11", "end": "2026-11-11", "category": "special", "notes": "Make lanterns, join the local procession and walk the neighbourhood singing route." },
+    { "id": "sinterklaasintocht-amsterdam", "title": "Sinterklaasintocht Amsterdam", "start": "2026-11-15", "end": "2026-11-15", "category": "special", "notes": "Parade, music and meeting Sinterklaas. A local arrival may be calmer for small children.", "url": "https://activiteiten.amsterdam.nl/evenementenbureau/activiteiten/2026/11/intocht-sinterklaas-amsterdam-2026-88ste/" },
+    { "id": "amsterdam-light-festival", "title": "Amsterdam Light Festival", "start": "2026-11-26", "end": "2027-01-17", "category": "special", "notes": "Choose either a walking route or an early canal cruise; current dates remain subject to adjustment.", "url": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/amsterdam-light-festival" },
+    { "id": "royal-christmas-fair", "title": "Royal Christmas Fair", "start": "2026-12-03", "end": "2026-12-23", "category": "special", "location": "Den Haag", "notes": "Free Christmas market, choirs and children's activities on Lange Voorhout.", "url": "https://royalchristmasfair.nl/en/" },
+    { "id": "amsterdam-winterparadijs", "title": "Amsterdam Winterparadijs", "start": "2026-12-12", "end": "2027-01-03", "category": "special", "notes": "Skating, snow activities and children's shows; book a morning session during the Christmas holiday.", "url": "https://activiteiten.amsterdam.nl/evenementenbureau/activiteiten/2026/12/amsterdamse-winterparadijs/" },
+    { "id": "nationale-tulpendag", "title": "Nationale Tulpendag", "start": "2027-01-16", "end": "2027-01-16", "category": "special", "location": "Museumplein", "notes": "Free tulip-picking garden from 13:00. Arrive before opening because the queue becomes substantial.", "url": "https://tulpentijd.nl/en/" },
+    { "id": "lunar-new-year", "title": "Lunar/Chinese New Year", "start": "2027-02-06", "end": "2027-02-06", "category": "special", "notes": "Chinatown Den Haag or Rotterdam: lion dance, Asian lunch and a cultural activity. Local public programmes may fall on the nearest weekend." },
+    { "id": "carnaval", "title": "Carnaval", "start": "2027-02-07", "end": "2027-02-09", "category": "special", "notes": "A daytime parade in Oeteldonk or Maastricht; Sunday is the easiest family day.", "url": "https://www.visitmaastricht.com/en/blog/carnival-in-maastricht" },
+    { "id": "spring-holiday-family-day", "title": "Voorjaarsvakantie family day", "start": "2027-02-20", "end": "2027-02-28", "category": "special", "notes": "Reserve one full indoor day: Naturalis plus Leiden, Space Expo, Spoorwegmuseum or NEMO." },
+    { "id": "international-womens-day", "title": "International Women's Day", "start": "2027-03-08", "end": "2027-03-08", "category": "special", "notes": "Family museum visit and celebratory lunch; move it to 6–7 March if a weekend works better." },
+    { "id": "eid-al-fitr", "title": "Ramazan Bayramı / Eid al-Fitr", "start": "2027-03-09", "end": "2027-03-11", "category": "special", "notes": "Family visits followed by a special lunch, dessert outing or children's activity." },
+    { "id": "keukenhof-season", "title": "Keukenhof season", "start": "2027-03-18", "end": "2027-05-09", "category": "special", "notes": "Reserve one April weekday or early Sunday. Before 10:30 or after 16:00 is usually calmer.", "url": "https://keukenhof.nl/en/" },
+    { "id": "nldoet", "title": "NLdoet", "start": "2027-03-19", "end": "2027-03-20", "category": "special", "notes": "Pick a child-friendly volunteering activity—community garden, animal shelter or neighbourhood project.", "url": "https://www.nldoet.nl/" },
+    { "id": "easter-outing", "title": "Easter outing", "start": "2027-03-28", "end": "2027-03-29", "category": "special", "notes": "Egg hunt followed by an estate, dune or forest walk and pancake lunch." },
+    { "id": "koningsspelen-23-nisan", "title": "Koningsspelen + 23 Nisan", "start": "2027-04-23", "end": "2027-04-23", "category": "special", "notes": "A particularly nice Dutch–Turkish family crossover: school sports followed by a Turkish children's celebration or family meal.", "url": "https://www.koningsspelen.nl/" },
+    { "id": "kings-day", "title": "King's Day", "start": "2027-04-27", "end": "2027-04-27", "category": "special", "notes": "Local vrijmarkt, children's games and orange picnic. A neighbourhood event is often easier than central Amsterdam." },
+    { "id": "remembrance-day", "title": "Remembrance Day", "start": "2027-05-04", "end": "2027-05-04", "category": "special", "notes": "Attend the local monument ceremony and two-minute silence at 20:00; meaningful rather than recreational." },
+    { "id": "liberation-day", "title": "Liberation Day", "start": "2027-05-05", "end": "2027-05-05", "category": "special", "notes": "Select a child-friendly freedom festival, concert or historical activity." },
+    { "id": "nationale-molendagen", "title": "HOLD: Nationale Molendagen", "start": "2027-05-08", "end": "2027-05-09", "category": "special", "notes": "Expected weekend; choose Kinderdijk, Schiedam or a working polder mill once confirmed." },
+    { "id": "dag-van-het-kasteel", "title": "Dag van het Kasteel", "start": "2027-05-14", "end": "2027-05-17", "category": "special", "notes": "Castle or country-estate day with storytelling, demonstrations and children's activities.", "url": "https://dagvanhetkasteel.nl/" },
+    { "id": "turkish-youth-sports-day", "title": "Turkish Youth and Sports Day", "start": "2027-05-19", "end": "2027-05-19", "category": "special", "notes": "Family cycle ride, sports afternoon and Turkish picnic; celebrate on the following weekend if needed." },
+    { "id": "amsterdam-architecture-day", "title": "Amsterdam Architecture Day", "start": "2027-06-12", "end": "2027-06-13", "category": "special", "notes": "Open buildings, guided walks and boat or cycling tours; dates are currently listed but still provisional.", "url": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/amsterdam-architecture-day" },
+    { "id": "open-garden-days", "title": "Open Garden Days or Archeologiedagen", "start": "2027-06-18", "end": "2027-06-20", "category": "special", "notes": "Adults may prefer canal gardens; children will probably prefer digging, pottery and archaeological workshops.", "url": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/open-garden-days" },
+    { "id": "keti-koti", "title": "Keti Koti Festival", "start": "2027-07-01", "end": "2027-07-01", "category": "special", "notes": "History, music, food and conversations about freedom and the Dutch slavery past.", "url": "https://www.iamsterdam.com/en/whats-on/calendar/festivals/events/keti-koti-festival-museumplein" },
+    { "id": "vierdaagsefeesten", "title": "Vierdaagsefeesten", "start": "2027-07-17", "end": "2027-07-23", "category": "special", "location": "Nijmegen", "notes": "Visit during daytime or early evening with children.", "url": "https://www.vierdaagsefeesten.nl/" },
+    { "id": "nijmeegse-vierdaagse", "title": "Nijmeegse Vierdaagse", "start": "2027-07-20", "end": "2027-07-23", "category": "special", "notes": "Cheer along the route or attend the Friday finish on Via Gladiola rather than attempting the walk itself.", "url": "https://www.4daagse.nl/" },
+    { "id": "family-island-weekend", "title": "Family island weekend", "start": "2027-08-07", "end": "2027-08-08", "category": "special", "notes": "Weather-flex reservation for Texel, Terschelling or another Wadden island: ferry, bicycles, beach and seals." },
+    { "id": "family-water-weekend", "title": "Family water weekend", "start": "2027-08-21", "end": "2027-08-22", "category": "special", "notes": "Biesbosch canoe/whisper-boat trip, picnic and nature-centre visit; keep Sunday as the rain date." },
+    { "id": "wereldhavendagen-2027", "title": "HOLD: Wereldhavendagen 2027", "start": "2027-09-03", "end": "2027-09-05", "category": "special", "notes": "Expected first weekend of September; await official confirmation." },
+    { "id": "open-monumentendag-2027", "title": "HOLD: Open Monumentendag 2027", "start": "2027-09-11", "end": "2027-09-12", "category": "special", "notes": "Expected second weekend of September under the annual format." },
+    { "id": "prinsjesdag-2027", "title": "Prinsjesdag 2027", "start": "2027-09-21", "end": "2027-09-21", "category": "special", "location": "Den Haag", "notes": "Return to Den Haag, perhaps choosing a different viewing point or combining it with the political quarter." }
   ]
 }

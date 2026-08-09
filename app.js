@@ -1,12 +1,8 @@
 const elements = {
-  yearSelect: document.querySelector("#year-select"),
-  filters: document.querySelector("#category-filters"),
   grid: document.querySelector("#months-grid"),
   loading: document.querySelector("#loading-state"),
   heroYear: document.querySelector("#hero-year"),
   heading: document.querySelector("#calendar-heading"),
-  description: document.querySelector("#year-description"),
-  summary: document.querySelector("#calendar-summary"),
   dialog: document.querySelector("#day-dialog"),
   dialogDate: document.querySelector("#dialog-date"),
   dialogEvents: document.querySelector("#dialog-events"),
@@ -16,7 +12,6 @@ const elements = {
 const state = {
   manifest: null,
   calendar: null,
-  activeCategories: new Set(),
   eventsByDate: new Map(),
 };
 
@@ -126,48 +121,6 @@ function formatRange(event) {
   return `${formatDate(start, options)} – ${formatDate(end, options)}`;
 }
 
-function renderYearOptions() {
-  elements.yearSelect.replaceChildren();
-  for (const year of state.manifest.years) {
-    const option = document.createElement("option");
-    option.value = year.id;
-    option.textContent = year.label;
-    elements.yearSelect.append(option);
-  }
-}
-
-function renderFilters() {
-  elements.filters.replaceChildren();
-
-  for (const [id, category] of Object.entries(state.calendar.categories)) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "filter-button";
-    button.dataset.category = id;
-    button.setAttribute("aria-pressed", String(state.activeCategories.has(id)));
-    button.style.setProperty("--category-color", category.color);
-
-    const swatch = document.createElement("span");
-    swatch.className = "filter-button__swatch";
-    swatch.setAttribute("aria-hidden", "true");
-
-    const label = document.createElement("span");
-    label.textContent = category.label;
-
-    button.append(swatch, label);
-    button.addEventListener("click", () => {
-      if (state.activeCategories.has(id)) {
-        state.activeCategories.delete(id);
-      } else {
-        state.activeCategories.add(id);
-      }
-      button.setAttribute("aria-pressed", String(state.activeCategories.has(id)));
-      renderCalendar();
-    });
-    elements.filters.append(button);
-  }
-}
-
 function getWeekdayLabels() {
   const monday = new Date(2024, 0, 1);
   return Array.from({ length: 7 }, (_, index) =>
@@ -183,8 +136,7 @@ function primaryCategory(events) {
 
 function createDayButton(date, allEvents) {
   const key = toDateKey(date);
-  const visibleEvents = allEvents.filter((event) => state.activeCategories.has(event.category));
-  const categories = [...new Set(visibleEvents.map((event) => event.category))];
+  const categories = [...new Set(allEvents.map((event) => event.category))];
   const button = document.createElement("button");
   const today = toDateKey(new Date()) === key;
   const weekend = date.getDay() === 0 || date.getDay() === 6;
@@ -193,7 +145,7 @@ function createDayButton(date, allEvents) {
   button.className = "day";
   if (weekend) button.classList.add("day--weekend");
   if (today) button.classList.add("day--today");
-  if (visibleEvents.length) button.classList.add(`day--${primaryCategory(visibleEvents)}`);
+  if (allEvents.length) button.classList.add(`day--${primaryCategory(allEvents)}`);
   if (categories.length > 1) button.classList.add("day--mixed");
 
   const number = document.createElement("span");
@@ -203,7 +155,7 @@ function createDayButton(date, allEvents) {
 
   const markers = document.createElement("span");
   markers.className = "day__events";
-  const shownEvents = visibleEvents.slice(0, 2);
+  const shownEvents = allEvents.slice(0, 2);
 
   for (const event of shownEvents) {
     const label = document.createElement("span");
@@ -213,10 +165,10 @@ function createDayButton(date, allEvents) {
     markers.append(label);
   }
 
-  if (visibleEvents.length > 2) {
+  if (allEvents.length > 2) {
     const more = document.createElement("span");
     more.className = "day__more";
-    more.textContent = `+${visibleEvents.length - 2}`;
+    more.textContent = `+${allEvents.length - 2}`;
     markers.append(more);
   }
 
@@ -239,17 +191,7 @@ function renderMonth(monthDate) {
   const title = document.createElement("h3");
   title.textContent = formatDate(monthDate, { month: "long", year: "numeric" });
 
-  const monthEvents = state.calendar.events.filter((event) => {
-    if (!state.activeCategories.has(event.category)) return false;
-    const monthStart = new Date(monthDate.getFullYear(), monthDate.getMonth(), 1);
-    const monthEnd = new Date(monthDate.getFullYear(), monthDate.getMonth() + 1, 0);
-    return parseDate(event.start) <= monthEnd && parseDate(event.end) >= monthStart;
-  });
-
-  const count = document.createElement("span");
-  count.className = "month-card__count";
-  count.textContent = monthEvents.length ? `${monthEvents.length} event${monthEvents.length === 1 ? "" : "s"}` : "No events";
-  header.append(title, count);
+  header.append(title);
 
   const weekdayRow = document.createElement("div");
   weekdayRow.className = "weekday-row";
@@ -295,8 +237,6 @@ function renderCalendar() {
   }
 
   elements.grid.append(fragment);
-  const visibleCount = state.calendar.events.filter((event) => state.activeCategories.has(event.category)).length;
-  elements.summary.textContent = `${months.length} months · ${visibleCount} of ${state.calendar.events.length} events shown`;
   elements.grid.setAttribute("aria-busy", "false");
 }
 
@@ -383,14 +323,10 @@ async function loadYear(yearId) {
   validateCalendar(calendar);
 
   state.calendar = calendar;
-  state.activeCategories = new Set(Object.keys(calendar.categories));
   state.eventsByDate = buildEventIndex(calendar.events);
-  elements.yearSelect.value = selected.id;
   elements.heroYear.textContent = calendar.label;
-  elements.heading.textContent = calendar.label;
-  elements.description.textContent = calendar.description || "Holidays, test weeks, and special days in one view.";
-  document.title = `${calendar.title || "School calendar"} · ${calendar.label}`;
-  renderFilters();
+  elements.heading.textContent = `KKC school year ${calendar.label}`;
+  document.title = `KKC School Year ${calendar.label}`;
   renderCalendar();
   elements.loading.hidden = true;
 
@@ -404,7 +340,6 @@ async function init() {
     const response = await fetch("data/years.json", { cache: "no-store" });
     if (!response.ok) throw new Error("Could not load the school-year list.");
     state.manifest = await response.json();
-    renderYearOptions();
 
     const requested = new URLSearchParams(window.location.search).get("year");
     const initial = state.manifest.years.some((year) => year.id === requested)
@@ -422,7 +357,6 @@ async function init() {
   }
 }
 
-elements.yearSelect.addEventListener("change", () => loadYear(elements.yearSelect.value));
 elements.dialogClose.addEventListener("click", () => elements.dialog.close());
 elements.dialog.addEventListener("click", (event) => {
   if (event.target === elements.dialog) elements.dialog.close();

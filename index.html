@@ -18,41 +18,14 @@
 
     <header class="hero">
       <div class="hero__inner">
-        <div class="brand">Family school calendar</div>
-
         <div class="hero__copy">
-          <p class="eyebrow">Calendar</p>
-          <h1 id="page-title">School year <span id="hero-year">2026 / 2027</span></h1>
-          <p id="year-description" class="hero__description">
-            Holidays, test weeks, and the days worth remembering—all in one calm view.
-          </p>
+          <h1 id="page-title">KKC <strong>School Year</strong> <strong id="hero-year">2026 / 2027</strong></h1>
         </div>
       </div>
     </header>
 
     <main id="calendar" class="page-shell" tabindex="-1">
-      <section class="toolbar" aria-label="Calendar controls">
-        <div class="year-control">
-          <label for="year-select">School year</label>
-          <div class="select-wrap">
-            <select id="year-select" aria-label="Select school year"></select>
-            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 7.5 5 5 5-5" /></svg>
-          </div>
-        </div>
-
-        <div class="filter-control">
-          <span class="filter-control__label">Show</span>
-          <div id="category-filters" class="filter-list" aria-label="Filter event categories"></div>
-        </div>
-      </section>
-
-      <section class="overview" aria-label="Calendar summary">
-        <div>
-          <p class="overview__kicker">Full school year</p>
-          <h2 id="calendar-heading">2026 / 2027</h2>
-        </div>
-        <p id="calendar-summary" class="overview__summary" aria-live="polite"></p>
-      </section>
+      <h2 id="calendar-heading" class="visually-hidden">KKC school year 2026 / 2027</h2>
 
       <div id="loading-state" class="loading-state" role="status">Loading calendar…</div>
       <section
@@ -68,8 +41,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>Tap or click any date to see its details.</p>
-      <a href="#calendar">Back to top <span aria-hidden="true">↑</span></a>
+      <a href="#calendar">Go top <span aria-hidden="true">↑</span></a>
     </footer>
 
     <dialog id="day-dialog" class="day-dialog" aria-labelledby="dialog-date">
@@ -77,7 +49,6 @@
         <div class="day-dialog__handle" aria-hidden="true"></div>
         <header class="day-dialog__header">
           <div>
-            <p class="day-dialog__eyebrow">Day details</p>
             <h2 id="dialog-date"></h2>
           </div>
           <button id="dialog-close" class="icon-button" type="button" aria-label="Close day details">
